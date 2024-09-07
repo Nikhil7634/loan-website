@@ -2518,10 +2518,10 @@ h6 {
 }
 @media (max-width: 425px) {
   .main-header--three .main-header__logo {
-    padding: 20px;
+    padding: 10px;
   }
 }
-@media (max-width: 375px) {
+@media (max-width: 210px) {
   .main-header--three .main-header__logo {
     padding: 0;
     background-color: transparent;
@@ -2536,12 +2536,12 @@ h6 {
   bottom: 0;
   background-color: var(--easilon-base, #00CDE5);
 }
-@media (max-width: 375px) {
+@media (max-width: 210px) {
   .main-header--three .main-header__logo::after {
     display: none;
   }
 }
-@media (max-width: 375px) {
+@media (max-width: 210px) {
   .main-header--three .main-header__logo__dark {
     display: none;
   }
