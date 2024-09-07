@@ -15247,4 +15247,7 @@ body.boxed-wrapper .download-app-one__shape {
   .main-slider-three__title__text{
     font-size: 2rem;
   }
+  .loan-calculator-form{
+    padding: 34px 5px 40px;
+  }
 }
