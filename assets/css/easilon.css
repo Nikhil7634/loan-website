@@ -15251,3 +15251,34 @@ body.boxed-wrapper .download-app-one__shape {
     padding: 34px 5px 40px;
   }
 }
+
+.servicepop{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  min-height: 100vh;
+  background: rgba(0,0,0,0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+  background: white !important;
+  overflow-y: scroll;
+  transform: scaleX(0);
+  transition: 0.5s;
+}
+.servicesclose{
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  height: 50px;
+  width: 50px;
+  display: grid;
+  place-items: center;
+  border: none;
+  border-radius: 50%;
+  background: white;
+  font-weight: 700;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}

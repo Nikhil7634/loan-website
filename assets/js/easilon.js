@@ -928,3 +928,20 @@
     easilon_stretch();
   });
 })(jQuery);
+
+var loanservice1 = document.querySelector(".servicepop")
+
+
+var servicesclose = document.querySelectorAll(".servicesclose");
+
+servicesclose.forEach(serviceitems =>{
+  serviceitems.addEventListener("click", ()=>{
+    loanservice1.style.transform = 'scaleX(0)';
+  });
+
+});
+
+var poping = document.querySelector(".poping");
+poping.addEventListener("click", () => {
+  loanservice1.style.transform = 'scaleX(1)';
+});
