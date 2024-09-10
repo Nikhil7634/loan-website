@@ -53,9 +53,12 @@
 
   <body class="custom-cursor">
     <div class="whatslink">
-      <a
-        href="https://api.whatsapp.com/send?phone=7038535126"
-        ><img style="border-radius: 50%;" src="https://img.freepik.com/premium-vector/whatsapp-icon-sticker_986045-42.jpg" height="50px" alt=""
+      <a href="https://api.whatsapp.com/send?phone=7038535126"
+        ><img
+          style="border-radius: 50%"
+          src="https://img.freepik.com/premium-vector/whatsapp-icon-sticker_986045-42.jpg"
+          height="50px"
+          alt=""
       /></a>
     </div>
     <div class="preloader">
@@ -221,7 +224,7 @@
 
       <section class="apply-loan section-space">
         <div class="container">
-          <form action="#" class="apply-loan__form">
+          <form action="#" class="apply-loan__form" id="loanfrom">
             <!-- Loan Details -->
 
             <!-- Personal Details -->
@@ -230,7 +233,7 @@
               <div class="apply-loan__form__row row">
                 <div class="col-md-6">
                   <div class="apply-loan__form__control">
-                    <label for="full-name">Full Name*</label>
+                    <label for="full-name" >Full Name*</label>
                     <input
                       type="text"
                       id="full-name"
@@ -269,6 +272,7 @@
                     <label>Marital Status*</label>
                     <select
                       class="selectpicker"
+                      id="MaritalStatus"
                       aria-label="Default select example"
                     >
                       <option selected="">Marital Status</option>
@@ -326,25 +330,7 @@
                   <!-- /.pply-loan__form__control -->
                 </div>
 
-                <div class="col-md-6">
-                  <div class="apply-loan__form__control">
-                    <label>Country*</label>
-                    <select
-                      class="selectpicker"
-                      aria-label="Default select example"
-                    >
-                      <option selected="">Country</option>
-                      <option value="1">Bangladesh</option>
-                      <option value="2">Afghanistan</option>
-                      <option value="3">Russia</option>
-                      <option value="4">Indonesia</option>
-                      <option value="5">Jordan</option>
-                      <option value="6">United Kingdom</option>
-                      <option value="7">United States of America</option>
-                    </select>
-                  </div>
-                  <!-- /.pply-loan__form__control -->
-                </div>
+                 
                 <div class="col-md-6">
                   <div class="apply-loan__form__control">
                     <label for="pin-code">Pin Code*</label>
@@ -589,6 +575,44 @@
         ><span class="scroll-to-top__inner"></span
       ></span>
     </a>
+
+    <script>
+      document
+        .getElementById("loanfrom")
+        .addEventListener("submit", function (event) {
+          event.preventDefault();
+
+          // Get form data
+          const name = document.getElementById("full-name").value;
+          const email = document.getElementById("enter-email").value;
+          const number = document.getElementById("mobile-number").value;
+          const MaritalStatus = document.getElementById("MaritalStatus").value;
+          const house = document.getElementById("house-info").value;
+          const street = document.getElementById("street").value;
+          const city = document.getElementById("city").value;
+          const pin_code = document.getElementById("pin-code").value;
+         
+          
+
+           const phoneNumber = "9322889200";
+
+          // Construct the WhatsApp URL
+
+          const whatsappURL = "https://wa.me/" + phoneNumber + "?text="
+          + "*Name:* " + name + "%0a"
+          + "*Email:* " + email + "%0a"
+          + "*Phone Number:* " + number + "%0a"
+          + "*Marital Status:* " + MaritalStatus + "%0a"
+          + "*House No:* " +  house + "%0a"
+          + "*Street:* " + street + "%0a"
+          + "*City:* " + city + "%0a"
+          + "*Pin Code:* " + pin_code + "%0a"
+ 
+
+          // Open WhatsApp with the pre-filled message
+          window.open(whatsappURL, "_blank");
+        });
+    </script>
 
     <script src="assets/vendors/jquery/jquery-3.7.0.min.js"></script>
     <script src="assets/vendors/bootstrap/js/bootstrap.bundle.min.js"></script>
