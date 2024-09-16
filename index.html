@@ -52,19 +52,98 @@
     <link rel="stylesheet" href="assets/vendors/slick/slick.css" />
 
     <link rel="stylesheet" href="assets/css/easilon.css" />
+
+    <style>
+      /* Style the popover container */
+      .popover {
+        position: fixed;
+        bottom: 5%;
+        right: 5%;
+        background-color: #fff;
+        border: 1px solid #ddd;
+        padding: 10px;
+        display: block;
+        z-index: 100;
+        padding: 20px; /* Make it visible by default */
+      }
+
+      /* Style the close button */
+      .close-btn {
+        background-color: #fff;
+        border: none;
+        padding: 5px 10px;
+        cursor: pointer;
+      }
+
+      /* Hide the popover when the close button is clicked */
+      .popover.invisible {
+        display: none;
+      }
+
+      .popover-content {
+        width: 100%;
+        display: flex;
+        flex-flow: column;
+        gap: 10px;
+        justify-content: center;
+        align-items: center;
+      }
+      .popover-content img {
+        width: 100%;
+      }
+      .popover-content h2{
+        font-size: 1.4rem;
+        font-weight: 600;
+        text-transform: uppercase;
+      }
+      .popover-content h2,p{
+        text-align: center;
+        text-wrap: pretty;
+      }
+    </style>
   </head>
 
   <body class="custom-cursor">
-    <div class="whatslink">
-      <a
-        href="https://api.whatsapp.com/send?phone=7038535126"
-        ><img style="border-radius: 50%;" src="https://img.freepik.com/premium-vector/whatsapp-icon-sticker_986045-42.jpg" height="50px" alt=""
+    <!-- The popover container -->
+    <div class="popover">
+      <!-- The popover content -->
+      <div class="popover-content">
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Bajaj_Allianz_Insurance.svg/2560px-Bajaj_Allianz_Insurance.svg.png"
+          alt=""
+        />
+        <h2>Bajaj LIC</h2>
+        <p>Bajaj LIC is a collaboration between Bajaj Finserv and Life Insurance Corporation, offering life insurance products and services in India.
+        </p>
+        <!-- The close button -->
+        <a href="https://api.whatsapp.com/send?phone=7038535126" class="easilon-btn">
+          <span>Apply Now</span>
+          <span class="easilon-btn__icon"
+            ><i class="icon-right-arrow"></i
+          ></span> </a
+        >
+
+        <button class="close-btn">Close</button>
+      </div>
+    </div>
+    <div class="whatslink"> 
+      <a href="https://api.whatsapp.com/send?phone=7038535126"
+        ><img
+          style="border-radius: 50%"
+          src="https://img.freepik.com/premium-vector/whatsapp-icon-sticker_986045-42.jpg"
+          height="50px"
+          alt=""
       /></a>
     </div>
     <div class="preloader">
-      <div style="display: grid;place-items: center;"
-        class="preloader__image"
-      > <img src="./assets/myimages/white logo.png" height="70px" style="filter: brightness(0) invert(1);" alt=""></div>
+      <div style="display: grid; place-items: center" class="preloader__image">
+        <img
+          src="./assets/myimages/white logo.png"
+          height="70px"
+          style="filter: brightness(0) invert(1)"
+          alt=""
+        />
+      </div>
     </div>
     <!-- /.preloader -->
     <div class="page-wrapper">
@@ -181,7 +260,6 @@
         <!-- /.mobile-nav__content -->
       </div>
       <!-- /.main-header -->
-     
 
       <section class="main-slider-three" id="home">
         <div
@@ -826,9 +904,12 @@
         <!-- /.container -->
         <section
           class="services-page section-space"
-          style="background: transparent !important; padding: 0;position: relative !important;"
+          style="
+            background: transparent !important;
+            padding: 0;
+            position: relative !important;
+          "
         >
-       
           <div class="container">
             <div class="row gutter-y-30">
               <div
@@ -837,10 +918,7 @@
                 data-wow-delay="00ms"
               >
                 <div class="service-card">
-                  <a
-                    href="./service-d-loan.html"
-                    class="service-card__image"
-                  >
+                  <a href="./service-d-loan.html" class="service-card__image">
                     <img
                       src="assets/images/services/service-2-1.jpg"
                       alt="personal loan"
@@ -848,11 +926,11 @@
                   ><!-- /.service-card__image -->
                   <div class="service-card__content poping">
                     <h3 class="service-card__title">
-                      <a  href="./service-d-loan.html">instant loan</a>
+                      <a href="./service-d-loan.html">instant loan</a>
                     </h3>
                     <!-- /.service-card__title -->
-                    <a href="./service-d-loan.html"
-                      
+                    <a
+                      href="./service-d-loan.html"
                       class="service-card__btn easilon-btn"
                     >
                       <span class="easilon-btn__icon"
@@ -863,8 +941,6 @@
                   <!-- /.service-card__content -->
                 </div>
                 <!-- /.service-card -->
-
-                
               </div>
               <!-- /.col-lg-4 col-md-6 -->
               <div
@@ -873,10 +949,7 @@
                 data-wow-delay="100ms"
               >
                 <div class="service-card">
-                  <a
-                    href="./service-d-loan.html"
-                    class="service-card__image"
-                  >
+                  <a href="./service-d-loan.html" class="service-card__image">
                     <img
                       src="assets/images/services/service-2-2.jpg"
                       alt="auto loan"
@@ -907,10 +980,7 @@
                 data-wow-delay="200ms"
               >
                 <div class="service-card">
-                  <a
-                    href="./service-d-loan.html"
-                    class="service-card__image"
-                  >
+                  <a href="./service-d-loan.html" class="service-card__image">
                     <img
                       src="assets/images/services/service-2-3.jpg"
                       alt="home loan"
@@ -941,10 +1011,7 @@
                 data-wow-delay="00ms"
               >
                 <div class="service-card">
-                  <a
-                    href="./service-d-loan.html"
-                    class="service-card__image"
-                  >
+                  <a href="./service-d-loan.html" class="service-card__image">
                     <img
                       src="assets/images/services/service-2-4.jpg"
                       alt="study loan"
@@ -967,9 +1034,6 @@
                   <!-- /.service-card__content -->
                 </div>
 
-
-
-
                 <!-- /.service-card -->
               </div>
               <div
@@ -978,10 +1042,7 @@
                 data-wow-delay="100ms"
               >
                 <div class="service-card">
-                  <a
-                    href="./service-d-loan.html"
-                    class="service-card__image"
-                  >
+                  <a href="./service-d-loan.html" class="service-card__image">
                     <img
                       src="assets/images/services/service-2-5.jpg"
                       alt="business loan"
@@ -1009,10 +1070,7 @@
                 data-wow-delay="200ms"
               >
                 <div class="service-card">
-                  <a
-                    href="./service-d-loan.html"
-                    class="service-card__image"
-                  >
+                  <a href="./service-d-loan.html" class="service-card__image">
                     <img
                       src="assets/images/services/service-2-6.jpg"
                       alt="bike loan"
@@ -1042,14 +1100,8 @@
                 data-wow-delay="200ms"
               >
                 <div class="service-card">
-                  <a
-                    href="./service-d-loan.html"
-                    class="service-card__image"
-                  >
-                    <img
-                      src="assets/myimages/loan.jpg"
-                      alt="bike loan"
-                    /> </a
+                  <a href="./service-d-loan.html" class="service-card__image">
+                    <img src="assets/myimages/loan.jpg" alt="bike loan" /> </a
                   ><!-- /.service-card__image -->
                   <div class="service-card__content">
                     <h3 class="service-card__title">
@@ -1069,7 +1121,63 @@
                 </div>
                 <!-- /.service-card -->
               </div>
-              
+
+              <div
+                class="col-lg-4 col-md-6 wow fadeInUp"
+                data-wow-duration="1500ms"
+                data-wow-delay="200ms"
+              >
+                <div class="service-card">
+                  <a href="./service-d-loan.html" class="service-card__image">
+                    <img src="assets/myimages/heath.jpg" alt="bike loan" /> </a
+                  ><!-- /.service-card__image -->
+                  <div class="service-card__content">
+                    <h3 class="service-card__title">
+                      <a href="./service-d-loan.html">Health insurance</a>
+                    </h3>
+                    <!-- /.service-card__title -->
+                    <a
+                      href="./service-d-loan.html"
+                      class="service-card__btn easilon-btn"
+                    >
+                      <span class="easilon-btn__icon"
+                        ><i class="icon-right-arrow"></i
+                      ></span> </a
+                    ><!-- /.service-card__btn -->
+                  </div>
+                  <!-- /.service-card__content -->
+                </div>
+                <!-- /.service-card -->
+              </div>
+
+              <div
+                class="col-lg-4 col-md-6 wow fadeInUp"
+                data-wow-duration="1500ms"
+                data-wow-delay="200ms"
+              >
+                <div class="service-card">
+                  <a href="./service-d-loan.html" class="service-card__image">
+                    <img src="assets/myimages/sip.jpg" alt="bike loan" /> </a
+                  ><!-- /.service-card__image -->
+                  <div class="service-card__content">
+                    <h3 class="service-card__title">
+                      <a href="./service-d-loan.html">SIP</a>
+                    </h3>
+                    <!-- /.service-card__title -->
+                    <a
+                      href="./service-d-loan.html"
+                      class="service-card__btn easilon-btn"
+                    >
+                      <span class="easilon-btn__icon"
+                        ><i class="icon-right-arrow"></i
+                      ></span> </a
+                    ><!-- /.service-card__btn -->
+                  </div>
+                  <!-- /.service-card__content -->
+                </div>
+                <!-- /.service-card -->
+              </div>
+
               <!-- /.col-lg-4 col-md-6 -->
             </div>
             <!-- /.row -->
@@ -1376,7 +1484,10 @@
                       </div>
                       <div
                         class="noUi-origin"
-                        style="transform: translate(1000.0204%, 0px); z-index: -1"
+                        style="
+                          transform: translate(1000.0204%, 0px);
+                          z-index: -1;
+                        "
                       >
                         <div
                           class="noUi-handle noUi-handle-lower"
@@ -1424,13 +1535,17 @@
                         <div
                           class="noUi-connect"
                           style="
-                            transform: translate(1000%, 100px) scale(0.454545, 1);
+                            transform: translate(1000%, 100px)
+                              scale(0.454545, 1);
                           "
                         ></div>
                       </div>
                       <div
                         class="noUi-origin"
-                        style="transform: translate(1000.5455%, 0px); z-index: 4"
+                        style="
+                          transform: translate(1000.5455%, 0px);
+                          z-index: 4;
+                        "
                       >
                         <div
                           class="noUi-handle noUi-handle-lower"
@@ -2841,9 +2956,6 @@
     </div>
     <!-- /.page-wrapper -->
 
-  
-     
-
     <a href="#" data-target="html" class="scroll-to-target scroll-to-top">
       <span class="scroll-to-top__text">back top</span>
       <span class="scroll-to-top__wrapper"
@@ -2874,5 +2986,17 @@
     <script src="assets/vendors/jquery-lettering/jquery.lettering.min.js"></script>
 
     <script src="assets/js/easilon.js"></script>
+
+    <script>
+      // Get the popover container and close button elements
+      const popover = document.querySelector(".popover");
+      const closeBtn = document.querySelector(".close-btn");
+
+      // Add an event listener to the close button
+      closeBtn.addEventListener("click", () => {
+        // Add the invisible class to the popover container
+        popover.classList.add("invisible");
+      });
+    </script>
   </body>
 </html>
