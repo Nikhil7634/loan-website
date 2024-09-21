@@ -47,7 +47,7 @@
         connect: [true, false],
         range: {
           min: 1,
-          max: 12,
+          max: 120,
         },
         direction: direction
       });
@@ -65,7 +65,7 @@
         connect: [true, false],
         range: {
           min: 1000,
-          max: 50000,
+          max: 1200000,
         },
         direction: direction
       });
