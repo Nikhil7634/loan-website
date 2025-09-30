@@ -13,7 +13,7 @@
                 data-wow-delay="00ms"
               >
                 <div class="footer-widget footer-widget--about">
-                  <a href="index.php" class="footer-widget__logo">
+                  <a href="index.html" class="footer-widget__logo">
                     <img
                       src="./assets/myimages/white logo.png"
                       height="60px"
@@ -58,12 +58,12 @@
                   <h2 class="footer-widget__title">Explore</h2>
                   <!-- /.footer-widget__title -->
                   <ul class="list-unstyled footer-widget__links">
-                    <li><a href="./index.php">Home</a></li>
+                    <li><a href="./index.html">Home</a></li>
 
-                    <li><a href="about.php">About Us</a></li>
-                    <li><a href="services.php">Our Services</a></li>
-                    <li><a href="./apply-loan.php">Apply For Loan</a></li>
-                    <li><a href="contact.php">Contact</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="services.html">Our Services</a></li>
+                    <li><a href="./apply-loan.html">Apply For Loan</a></li>
+                    <li><a href="contact.html">Contact</a></li>
                   </ul>
                   <!-- /.list-unstyled footer-widget__links -->
                 </div>
@@ -81,11 +81,11 @@
                   <h2 class="footer-widget__title">Loan Services</h2>
                   <!-- /.footer-widget__title -->
                   <ul class="list-unstyled footer-widget__links">
-                    <li><a href="./services.php">bike loan</a></li>
-                    <li><a href="./services.php">home loan</a></li>
-                    <li><a href="./services.php">abroad study loan</a></li>
-                    <li><a href="./services.php">business loan</a></li>
-                    <li><a href="./services.php">personal loan</a></li>
+                    <li><a href="./services.html">bike loan</a></li>
+                    <li><a href="./services.html">home loan</a></li>
+                    <li><a href="./services.html">abroad study loan</a></li>
+                    <li><a href="./services.html">business loan</a></li>
+                    <li><a href="./services.html">personal loan</a></li>
                   </ul>
                   <!-- /.list-unstyled footer-widget__links -->
                 </div>

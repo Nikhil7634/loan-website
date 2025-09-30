@@ -4,7 +4,7 @@
         <div class="container-fluid">
           <div class="main-header__inner">
             <div class="main-header__logo logo-retina">
-              <a href="index.php">
+              <a href="index.html">
                 <img
                 style="max-height: 50px;"
                   src="./assets/myimages/white logo.png"
@@ -19,18 +19,18 @@
               <nav class="main-header__nav main-menu">
                 <ul class="main-menu__list">
                   <li>
-                    <a href="index.php">Home</a>
+                    <a href="index.html">Home</a>
                   </li>
 
                   <li>
-                    <a href="about.php">About Us</a>
+                    <a href="about.html">About Us</a>
                   </li>
                   <li>
-                    <a href="./services.php">Our Services</a>
+                    <a href="./services.html">Our Services</a>
                   </li>
 
                   <li>
-                    <a href="contact.php">Contact Us</a>
+                    <a href="contact.html">Contact Us</a>
                   </li>
                 </ul>
               </nav>
@@ -42,7 +42,7 @@
               </div>
               <!-- /.mobile-nav__toggler -->
 
-              <a href="apply-loan.php" class="easilon-btn main-header__btn">
+              <a href="apply-loan.html" class="easilon-btn main-header__btn">
                 <span>Apply for loan</span>
                 <span class="easilon-btn__icon"
                   ><i class="icon-right-arrow"></i
@@ -63,7 +63,7 @@
             ><i class="icon-close"></i
           ></span>
           <div class="logo-box logo-retina">
-            <a href="index.php" aria-label="logo image"
+            <a href="index.html" aria-label="logo image"
               ><img
                 src="./assets/myimages/white logo.png"
                 height="50px"
