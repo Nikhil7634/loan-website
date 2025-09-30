@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Our Services || AJ Finance ||</title>
+    <title>Our Services || Grand Capital Financial ||</title>
     <link rel="icon" href="./assets/myimages/fevi-icon.png" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com/" />
@@ -55,7 +55,7 @@
   <body class="custom-cursor">
     <div class="whatslink">
       <a
-        href="https://api.whatsapp.com/send?phone=7038535126"
+        href="https://api.whatsapp.com/send?phone=9284841551"
         ><img style="border-radius: 50%;" src="https://img.freepik.com/premium-vector/whatsapp-icon-sticker_986045-42.jpg" height="50px" alt=""
       /></a>
     </div>
@@ -71,118 +71,7 @@
     </div>
     <!-- /.preloader -->
     <div class="page-wrapper">
-      <header
-        class="main-header main-header--three sticky-header sticky-header--three sticky-header--normal"
-      >
-        <div class="container-fluid">
-          <div class="main-header__inner">
-            <div class="main-header__logo logo-retina">
-              <a href="index.html">
-                <img
-                  src="./assets/myimages/logo.jpg"
-                  alt="Easilon HTML"
-                  width="150"
-                  class="main-header__logo__dark"
-                />
-              </a>
-            </div>
-            <!-- /.main-header__logo -->
-            <div class="main-header__right">
-              <nav class="main-header__nav main-menu">
-                <ul class="main-menu__list">
-                  <li>
-                    <a href="index.html">Home</a>
-                  </li>
-
-                  <li>
-                    <a href="about.html">About Us</a>
-                  </li>
-                  <li>
-                    <a href="./services.html">Our Services</a>
-                  </li>
-
-                  <li>
-                    <a href="contact.html">Contact Us</a>
-                  </li>
-                </ul>
-              </nav>
-              <!-- /.main-header__nav -->
-              <div class="mobile-nav__btn mobile-nav__toggler">
-                <span></span>
-                <span></span>
-                <span></span>
-              </div>
-              <!-- /.mobile-nav__toggler -->
-
-              <a href="apply-loan.html" class="easilon-btn main-header__btn">
-                <span>Apply for loan</span>
-                <span class="easilon-btn__icon"
-                  ><i class="icon-right-arrow"></i
-                ></span> </a
-              ><!-- /.easilon-btn main-header__btn -->
-            </div>
-            <!-- /.main-header__right -->
-          </div>
-          <!-- /.main-header__inner -->
-        </div>
-        <!-- /.container-fluid -->
-      </header>
-      <div class="mobile-nav__wrapper">
-        <div class="mobile-nav__overlay mobile-nav__toggler"></div>
-        <!-- /.mobile-nav__overlay -->
-        <div class="mobile-nav__content">
-          <span class="mobile-nav__close mobile-nav__toggler"
-            ><i class="icon-close"></i
-          ></span>
-          <div class="logo-box logo-retina">
-            <a href="index.html" aria-label="logo image"
-              ><img
-                src="./assets/myimages/white logo.png"
-                height="50px"
-                style="filter: brightness(0) invert(1)"
-                alt=""
-            /></a>
-          </div>
-          <!-- /.logo-box -->
-          <div class="mobile-nav__container"></div>
-          <!-- /.mobile-nav__container -->
-          <ul class="mobile-nav__contact list-unstyled">
-            <li>
-              <span class="mobile-nav__contact__icon"
-                ><i class="fa fa-envelope"></i
-              ></span>
-              <a href="mailto:ajloan84@gmail.com">ajloan84@gmail.com</a>
-            </li>
-            <li>
-              <span class="mobile-nav__contact__icon"
-                ><i class="fa fa-phone-alt"></i
-              ></span>
-              <a href="tel:7038535126">7038535126</a>
-            </li>
-          </ul>
-          <!-- /.mobile-nav__contact -->
-          <div class="mobile-nav__social">
-            <a href="https://facebook.com/">
-              <i class="fab fa-facebook-f" aria-hidden="true"></i>
-              <span class="sr-only">Facebook</span>
-            </a>
-            <a href="https://twitter.com/">
-              <i class="fab fa-twitter" aria-hidden="true"></i>
-              <span class="sr-only">Twitter</span>
-            </a>
-            <a href="https://instagram.com/">
-              <i class="fab fa-instagram" aria-hidden="true"></i>
-              <span class="sr-only">Instagram</span>
-            </a>
-            <a href="https://youtube.com/">
-              <i class="fab fa-youtube" aria-hidden="true"></i>
-              <span class="sr-only">Youtube</span>
-            </a>
-          </div>
-          <!-- /.mobile-nav__social -->
-        </div>
-        <!-- /.mobile-nav__content -->
-      </div>
+      <?php include 'includes/navbar.php' ?>
       <!-- /.main-header -->
       <section class="page-header">
         <div
@@ -196,7 +85,7 @@
           <div class="page-header__content">
             <h2 class="page-header__title">Our Services</h2>
             <ul class="easilon-breadcrumb list-unstyled">
-              <li><a href="index.html">Home</a></li>
+              <li><a href="index.php">Home</a></li>
               <li><span>Our Services</span></li>
             </ul>
             <!-- /.thm-breadcrumb list-unstyled -->
@@ -291,7 +180,7 @@
                 data-wow-delay="00ms"
               >
                 <div class="service-card">
-                  <a href="./service-d-loan.html" class="service-card__image">
+                  <a href="./service-d-loan.php" class="service-card__image">
                     <img
                       src="assets/images/services/service-2-1.jpg"
                       alt="personal loan"
@@ -299,11 +188,11 @@
                   ><!-- /.service-card__image -->
                   <div class="service-card__content poping">
                     <h3 class="service-card__title">
-                      <a href="./service-d-loan.html">instant loan</a>
+                      <a href="./service-d-loan.php">instant loan</a>
                     </h3>
                     <!-- /.service-card__title -->
                     <a
-                      href="./service-d-loan.html"
+                      href="./service-d-loan.php"
                       class="service-card__btn easilon-btn"
                     >
                       <span class="easilon-btn__icon"
@@ -322,7 +211,7 @@
                 data-wow-delay="100ms"
               >
                 <div class="service-card">
-                  <a href="./service-d-loan.html" class="service-card__image">
+                  <a href="./service-d-loan.php" class="service-card__image">
                     <img
                       src="assets/images/services/service-2-2.jpg"
                       alt="auto loan"
@@ -330,11 +219,11 @@
                   ><!-- /.service-card__image -->
                   <div class="service-card__content">
                     <h3 class="service-card__title">
-                      <a href="./service-d-loan.html">Personal loan</a>
+                      <a href="./service-d-loan.php">Personal loan</a>
                     </h3>
                     <!-- /.service-card__title -->
                     <a
-                      href="./service-d-loan.html"
+                      href="./service-d-loan.php"
                       class="service-card__btn easilon-btn"
                     >
                       <span class="easilon-btn__icon"
@@ -353,7 +242,7 @@
                 data-wow-delay="200ms"
               >
                 <div class="service-card">
-                  <a href="./service-d-loan.html" class="service-card__image">
+                  <a href="./service-d-loan.php" class="service-card__image">
                     <img
                       src="assets/images/services/service-2-3.jpg"
                       alt="home loan"
@@ -361,11 +250,11 @@
                   ><!-- /.service-card__image -->
                   <div class="service-card__content">
                     <h3 class="service-card__title">
-                      <a href="./service-d-loan.html">business loan </a>
+                      <a href="./service-d-loan.php">business loan </a>
                     </h3>
                     <!-- /.service-card__title -->
                     <a
-                      href="./service-d-loan.html"
+                      href="./service-d-loan.php"
                       class="service-card__btn easilon-btn"
                     >
                       <span class="easilon-btn__icon"
@@ -384,7 +273,7 @@
                 data-wow-delay="00ms"
               >
                 <div class="service-card">
-                  <a href="./service-d-loan.html" class="service-card__image">
+                  <a href="./service-d-loan.php" class="service-card__image">
                     <img
                       src="assets/images/services/service-2-4.jpg"
                       alt="study loan"
@@ -392,11 +281,11 @@
                   ><!-- /.service-card__image -->
                   <div class="service-card__content">
                     <h3 class="service-card__title">
-                      <a href="./service-d-loan.html">home loan</a>
+                      <a href="./service-d-loan.php">home loan</a>
                     </h3>
                     <!-- /.service-card__title -->
                     <a
-                      href="./service-d-loan.html"
+                      href="./service-d-loan.php"
                       class="service-card__btn easilon-btn"
                     >
                       <span class="easilon-btn__icon"
@@ -415,7 +304,7 @@
                 data-wow-delay="100ms"
               >
                 <div class="service-card">
-                  <a href="./service-d-loan.html" class="service-card__image">
+                  <a href="./service-d-loan.php" class="service-card__image">
                     <img
                       src="assets/images/services/service-2-5.jpg"
                       alt="business loan"
@@ -423,11 +312,11 @@
                   ><!-- /.service-card__image -->
                   <div class="service-card__content">
                     <h3 class="service-card__title">
-                      <a href="./service-d-loan.html">mudra loan</a>
+                      <a href="./service-d-loan.php">mudra loan</a>
                     </h3>
                     <!-- /.service-card__title -->
                     <a
-                      href="./service-d-loan.html"
+                      href="./service-d-loan.php"
                       class="service-card__btn easilon-btn"
                     >
                       <span class="easilon-btn__icon"
@@ -443,7 +332,7 @@
                 data-wow-delay="200ms"
               >
                 <div class="service-card">
-                  <a href="./service-d-loan.html" class="service-card__image">
+                  <a href="./service-d-loan.php" class="service-card__image">
                     <img
                       src="assets/images/services/service-2-6.jpg"
                       alt="bike loan"
@@ -451,11 +340,11 @@
                   ><!-- /.service-card__image -->
                   <div class="service-card__content">
                     <h3 class="service-card__title">
-                      <a href="./service-d-loan.html">mortgage loan</a>
+                      <a href="./service-d-loan.php">mortgage loan</a>
                     </h3>
                     <!-- /.service-card__title -->
                     <a
-                      href="./service-d-loan.html"
+                      href="./service-d-loan.php"
                       class="service-card__btn easilon-btn"
                     >
                       <span class="easilon-btn__icon"
@@ -473,16 +362,16 @@
                 data-wow-delay="200ms"
               >
                 <div class="service-card">
-                  <a href="./service-d-loan.html" class="service-card__image">
+                  <a href="./service-d-loan.php" class="service-card__image">
                     <img src="assets/myimages/loan.jpg" alt="bike loan" /> </a
                   ><!-- /.service-card__image -->
                   <div class="service-card__content">
                     <h3 class="service-card__title">
-                      <a href="./service-d-loan.html">life insurance</a>
+                      <a href="./service-d-loan.php">life insurance</a>
                     </h3>
                     <!-- /.service-card__title -->
                     <a
-                      href="./service-d-loan.html"
+                      href="./service-d-loan.php"
                       class="service-card__btn easilon-btn"
                     >
                       <span class="easilon-btn__icon"
@@ -501,16 +390,16 @@
                 data-wow-delay="200ms"
               >
                 <div class="service-card">
-                  <a href="./service-d-loan.html" class="service-card__image">
+                  <a href="./service-d-loan.php" class="service-card__image">
                     <img src="assets/myimages/heath.jpg" alt="bike loan" /> </a
                   ><!-- /.service-card__image -->
                   <div class="service-card__content">
                     <h3 class="service-card__title">
-                      <a href="./service-d-loan.html">Health insurance</a>
+                      <a href="./service-d-loan.php">Health insurance</a>
                     </h3>
                     <!-- /.service-card__title -->
                     <a
-                      href="./service-d-loan.html"
+                      href="./service-d-loan.php"
                       class="service-card__btn easilon-btn"
                     >
                       <span class="easilon-btn__icon"
@@ -529,16 +418,16 @@
                 data-wow-delay="200ms"
               >
                 <div class="service-card">
-                  <a href="./service-d-loan.html" class="service-card__image">
+                  <a href="./service-d-loan.php" class="service-card__image">
                     <img src="assets/myimages/sip.jpg" alt="bike loan" /> </a
                   ><!-- /.service-card__image -->
                   <div class="service-card__content">
                     <h3 class="service-card__title">
-                      <a href="./service-d-loan.html">SIP</a>
+                      <a href="./service-d-loan.php">SIP</a>
                     </h3>
                     <!-- /.service-card__title -->
                     <a
-                      href="./service-d-loan.html"
+                      href="./service-d-loan.php"
                       class="service-card__btn easilon-btn"
                     >
                       <span class="easilon-btn__icon"
@@ -560,210 +449,7 @@
         <!-- /.container -->
       </section>
 
-      <footer class="main-footer @@extraClassName">
-        <div
-          class="main-footer__bg"
-          style="background-image: url(assets/images/shapes/footer-bg-1-1.png)"
-        ></div>
-        <!-- /.main-footer__bg -->
-        <div class="main-footer__top">
-          <div class="container">
-            <div class="row gutter-y-40">
-              <div
-                class="col-xl-4 col-lg-6 wow fadeInUp"
-                data-wow-duration="1500ms"
-                data-wow-delay="00ms"
-              >
-                <div class="footer-widget footer-widget--about">
-                  <a href="index.html" class="footer-widget__logo">
-                    <img
-                      src="./assets/myimages/white logo.png"
-                      height="60px"
-                      style="filter: brightness(0) invert(1)"
-                      alt="Easilon HTML Template"
-                    />
-                  </a>
-                  <p class="footer-widget__about-text">
-                    At AJ finance, we specialize in providing fast, affordable,
-                    and flexible loan solutions. With transparent terms and
-                    personalized service, we are committed to helping you
-                    achieve your financial goals with ease and confidence.
-                  </p>
-                  <!-- /.footer-widget__about-text -->
-                  <form
-                    action="#"
-                    data-url="MAILCHIMP_FORM_URL"
-                    class="footer-widget__newsletter mc-form"
-                  >
-                    <input type="text" name="EMAIL" placeholder="Enter Email" />
-                    <button type="submit">
-                      <span class="sr-only">submit</span
-                      ><!-- /.sr-only -->
-                      <i class="icon-right-arrow"></i>
-                    </button>
-                  </form>
-                  <!-- /.footer-widget__newsletter mc-form -->
-                  <div class="mc-form__response"></div>
-                  <!-- /.mc-form__response -->
-                </div>
-                <!-- /.footer-widget -->
-              </div>
-              <!-- /.col-xl-4 col-lg-6 -->
-              <div
-                class="col-xl-2 col-lg-3 col-md-3 col-sm-6 wow fadeInUp"
-                data-wow-duration="1500ms"
-                data-wow-delay="100ms"
-              >
-                <div
-                  class="footer-widget footer-widget--links footer-widget--links-one"
-                >
-                  <h2 class="footer-widget__title">Explore</h2>
-                  <!-- /.footer-widget__title -->
-                  <ul class="list-unstyled footer-widget__links">
-                    <li><a href="./index.html">Home</a></li>
-
-                    <li><a href="about.html">About Us</a></li>
-                    <li><a href="services.html">Our Services</a></li>
-                    <li><a href="./apply-loan.html">Apply For Loan</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                  </ul>
-                  <!-- /.list-unstyled footer-widget__links -->
-                </div>
-                <!-- /.footer-widget -->
-              </div>
-              <!-- /.col-xl-2 col-lg-3 col-md-3 col-sm-6 -->
-              <div
-                class="col-xl-3 col-lg-3 col-md-4 col-sm-6 wow fadeInUp"
-                data-wow-duration="1500ms"
-                data-wow-delay="200ms"
-              >
-                <div
-                  class="footer-widget footer-widget--links footer-widget--links-two"
-                >
-                  <h2 class="footer-widget__title">Loan Services</h2>
-                  <!-- /.footer-widget__title -->
-                  <ul class="list-unstyled footer-widget__links">
-                    <li><a href="./services.html">bike loan</a></li>
-                    <li><a href="./services.html">home loan</a></li>
-                    <li><a href="./services.html">abroad study loan</a></li>
-                    <li><a href="./services.html">business loan</a></li>
-                    <li><a href="./services.html">personal loan</a></li>
-                  </ul>
-                  <!-- /.list-unstyled footer-widget__links -->
-                </div>
-                <!-- /.footer-widget -->
-              </div>
-              <!-- /.col-xl-3 col-lg-3 col-md-4 col-sm-6 -->
-              <div
-                class="col-xl-3 col-lg-6 col-md-5 wow fadeInUp"
-                data-wow-duration="1500ms"
-                data-wow-delay="300ms"
-              >
-                <div class="footer-widget footer-widget--contact">
-                  <h2 class="footer-widget__title">Get inTouch</h2>
-                  <!-- /.footer-widget__title -->
-                  <ul class="list-unstyled footer-widget__info">
-                    <li>
-                      <a href="https://maps.app.goo.gl/2gMgvfeoT79YkV6CA"
-                        >Shop No.A-10, 2nd Floor, Prashant Complex, Opp BARC
-                        Gate, Chitralaya, Boisar 401501
-                      </a>
-                    </li>
-                    <li>
-                      <span class="footer-widget__info__icon"
-                        ><i class="icon-paper-plane"></i
-                      ></span>
-                      <a
-                        href="mailto:ajloan84@gmail.com
-                                            "
-                        >ajloan84@gmail.com
-                      </a>
-                    </li>
-                    <li>
-                      <span class="footer-widget__info__icon"
-                        ><i class="icon-telephone"></i
-                      ></span>
-                      <a href="tel:7038535126 ">7038535126 </a>
-                    </li>
-                  </ul>
-                  <!-- /.list-unstyled -->
-                </div>
-                <!-- /.footer-widget -->
-              </div>
-              <!-- /.col-xl-3 col-lg-6 col-md-5 -->
-            </div>
-            <!-- /.row -->
-          </div>
-          <!-- /.container -->
-        </div>
-        <!-- /.main-footer__top -->
-        <div class="main-footer__bottom">
-          <div class="container">
-            <div class="main-footer__bottom__inner">
-              <div class="row gutter-y-40 align-items-center">
-                <div
-                  class="col-md-5 wow fadeInUp"
-                  data-wow-duration="1500ms"
-                  data-wow-delay="000ms"
-                >
-                  <div class="main-footer__social social-links-two">
-                    <a href="https://facebook.com/">
-                      <span class="social-links-two__icon">
-                        <i
-                          class="fab fa-facebook-f"
-                          aria-hidden="true"
-                        ></i> </span
-                      ><!-- /.social-links-two__icon -->
-                      <span class="sr-only">Facebook</span>
-                    </a>
-                    <a href="https://twitter.com/">
-                      <span class="social-links-two__icon">
-                        <i class="fab fa-twitter" aria-hidden="true"></i> </span
-                      ><!-- /.social-links-two__icon -->
-                      <span class="sr-only">Twitter</span>
-                    </a>
-                    <a href="https://instagram.com/">
-                      <span class="social-links-two__icon">
-                        <i
-                          class="fab fa-instagram"
-                          aria-hidden="true"
-                        ></i> </span
-                      ><!-- /.social-links-two__icon -->
-                      <span class="sr-only">Instagram</span>
-                    </a>
-                    <a href="https://youtube.com/">
-                      <span class="social-links-two__icon">
-                        <i class="fab fa-youtube" aria-hidden="true"></i> </span
-                      ><!-- /.social-links-two__icon -->
-                      <span class="sr-only">Youtube</span>
-                    </a>
-                  </div>
-                  <!-- /.main-footer__social -->
-                </div>
-                <!-- /.col-md-5 -->
-                <div
-                  class="col-md-7 wow fadeInUp"
-                  data-wow-duration="1500ms"
-                  data-wow-delay="100ms"
-                >
-                  <div class="main-footer__bottom__copyright">
-                    <p class="main-footer__copyright">
-                      &copy; Copyright <span class="dynamic-year"></span> by AJ
-                      finance.
-                    </p>
-                  </div>
-                  <!-- /.main-footer__bottom__copyright -->
-                </div>
-                <!-- /.col-md-7 -->
-              </div>
-              <!-- /.row -->
-            </div>
-            <!-- /.main-footer__inner -->
-          </div>
-          <!-- /.container -->
-        </div>
-        <!-- /.main-footer__bottom -->
-      </footer>
+       <?php include 'includes/footer.php'; ?>
       <!-- /.main-footer -->
     </div>
     <!-- /.page-wrapper -->
@@ -776,7 +462,7 @@
           ><i class="icon-close"></i
         ></span>
         <div class="logo-box logo-retina">
-          <a href="index.html" aria-label="logo image"
+          <a href="index.php" aria-label="logo image"
             ><img src="assets/images/logo-light.png" width="155" alt=""
           /></a>
         </div>
